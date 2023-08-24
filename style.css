@@ -1,0 +1,39 @@
+.subs {
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    transition: opacity 0.6s;
+    cursor: pointer;
+}
+
+.subs:hover {
+    opacity: 0.7;
+}
+
+.subs:active {
+    opacity: 0.3;
+}
+
+.join {
+    border-style: solid ;
+    border-width: 1px;
+    border-color: rgb(18, 150, 226);
+    color: rgb(18, 150, 226);
+    height: 30px;
+    width: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+.join:hover {
+    background-color: rgb(18, 150, 226);
+    color: white;
+}
+
+.join:active {
+    opacity: 0.3;
+}
